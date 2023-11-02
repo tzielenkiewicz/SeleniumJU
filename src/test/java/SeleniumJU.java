@@ -226,7 +226,6 @@ public class SeleniumJU {
 
     @AfterAll
     public static void close() {
-        webDriver.close();
         webDriver.quit();
     }
 }
